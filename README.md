@@ -3,23 +3,6 @@
 This guide provides a step-by-step walkthrough for installing, configuring, and securing **BIND DNS Server** with **Webmin** on a Linux server.  
 It is structured for use in production-like lab environments and includes security best practices, zone configuration, and upgrade instructions.
 
----
-
-## 📑 Table of Contents
-
-1. [Prerequisites](#1-prerequisites)  
-2. [System Preparation](#2-system-preparation)  
-3. [BIND Installation](#3-install-bind-and-start-the-service)  
-4. [BIND Configuration](#4-edit-the-main-bind-configuration-file)  
-5. [Webmin Installation](#5-webmin-installation)  
-6. [DNS Zone Configuration](#dns-zone-configuration)  
-7. [Security Configuration](#7-security-configuration)  
-8. [Upgrade Webmin](#8-webmin-upgrade)  
-9. [GPG Key Update](#9-change-gpg-key-method)  
-10. [Reference Resources](#-reference-resources)
-
----
-
 ## 1. Prerequisites
 
 ### Important Security Note
@@ -333,6 +316,8 @@ systemctl status webmin
 
 🔗 Reference Resources
 
-Webmin Official Documentation: https://webmin.com/docs/
-GPG Key URL: https://download.webmin.com/jcameron-key.asc
-Repository Setup Script: https://raw.githubusercontent.com/webmin/webmin/master/setup-repos.sh
+[https://webmin.com/docs/] Webmin Official Documentation
+
+[https://download.webmin.com/jcameron-key.asc] GPG Key URL
+
+[https://raw.githubusercontent.com/webmin/webmin/master/setup-repos.sh] Repository Setup Script
