@@ -1,7 +1,5 @@
-# BIND DNS Server + Webmin Setup Guide
-
-This guide provides a step-by-step walkthrough for installing, configuring, and securing **BIND DNS Server** with **Webmin** on a Linux server.  
-It is structured for use in production-like lab environments and includes security best practices, zone configuration, and upgrade instructions.
+# This guide provides a step-by-step walkthrough for installing, configuring, and securing **BIND DNS Server** with **Webmin** on a Linux server.  
+# It is structured for use in production-like lab environments and includes security best practices, zone configuration, and upgrade instructions.
 
 ## 1. Prerequisites
 
