@@ -3,8 +3,7 @@ In this guide, I will show you a step-by-step installation, configuration, and s
 It is structured for use in production-like lab environments and includes security best practices, zone configuration, and upgrade instructions.
 
 ### 1. Security Recommendations
-- - Use **.corp, .com, .net, .internal** domains for DNS in business environments.  
-    Avoid using **.local**, as it is reserved for **mDNS** (Multicast DNS) and may cause issues.
+- Use **.corp, .com, .net, .internal** domains for DNS in business environments. Avoid using **.local**, as it is reserved for **mDNS** (Multicast DNS) and may cause issues.
 - **BIND Access Controls**: Use ACLs to limit query access.  
 - **Network Infrastructure Security**: Restrict access to DNS ports (`53`, `953`, `10000`) on routers/switches.  
 - **Regular Updates**: Keep the system updated with the latest security patches.  
